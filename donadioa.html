@@ -3,86 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitae - Francisco Donadio</title>
-    <style>
-        body {
-            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #e8eaf6;
-        }
-        .container {
-            max-width: 850px;
-            background: white;
-            padding: 25px;
-            margin: 20px auto;
-            border-radius: 8px;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-        }
-        h1, h2 {
-            color: #1a237e;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .section-title {
-            border-bottom: 2px solid #3f51b5;
-            padding-bottom: 5px;
-            margin-bottom: 10px;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        a {
-            color: #303f9f;
-            text-decoration: none;
-            font-weight: bold;
-        }
-    </style>
+    <title>Currículum Vitae - Francisco Donadio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Francisco Donadio</h1>
-        <h3>Analista de Datos | Consultor GIS</h3>
-        
-        <div class="section">
-            <h2 class="section-title">Contacto</h2>
-            <p>📞 3515156616</p>
-            <p>📧 francisco.donadio@mi.unc.edu.ar</p>
-            <p>📍 Arballo de Bustamante 2812, B° Jardín, Córdoba</p>
-            <p>🔗 <a href="https://www.linkedin.com/in/francisco-donadio-16494a277">LinkedIn</a></p>
-        </div>
+        <header>
+            <h1>Francisco Donadio</h1>
+            <p>Analista de Datos y Consultor GIS</p>
+        </header>
 
-        <div class="section">
-            <h2 class="section-title">Educación</h2>
+        <section class="contacto">
+            <h2>Contacto</h2>
+            <p>Teléfono: 3515156616</p>
+            <p>Email: francisco.donadio@mi.unc.edu.ar</p>
+            <p>Domicilio: Arballo de Bustamante 2812, Barrio Jardín, Córdoba.</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/francisco-donadio-16494a277" target="_blank">Perfil de LinkedIn</a></p>
+        </section>
+
+        <section class="educacion">
+            <h2>Educación</h2>
             <ul>
-                <li>Bachiller Universitario en Ciencias Aplicadas - UNC</li>
-                <li>Geología (Tesis en curso) - UNC</li>
+                <li>Secundario Técnico (Técnico Electromecánico Nacional)</li>
+                <li>Universitario: Bachiller Universitario en Ciencias Aplicadas (UNC)</li>
+                <li>Geología (En proceso de tesis de grado)</li>
             </ul>
-        </div>
+        </section>
 
-        <div class="section">
-            <h2 class="section-title">Experiencia</h2>
+        <section class="cursos">
+            <h2>Cursos</h2>
             <ul>
-                <li><strong>Analista de Datos | Consultor GIS</strong> - Municipalidad de Córdoba (2021 - Actualidad)</li>
-                <li><strong>Técnico y Analista Ambiental</strong> - IL&A Ingeniería Laboral y Ambiental (2022)</li>
-                <li><strong>Técnico Electromecánico</strong> - Pastorino Global Services (2021)</li>
-                <li><strong>Técnico</strong> - TECME (2020, Pandemia)</li>
-                <li><strong>Técnico</strong> - Cintelink (2019)</li>
+                <li>Analista de Datos (Coderhouse)</li>
+                <li>Fundamentos de la Programación (UTN)</li>
+                <li>Power BI y SQL (Coderhouse)</li>
+                <li>QGIS Integral - Análisis de Datos Espaciales (Centro Redes)</li>
+                <li>Introducción a la Teledetección (CONAE)</li>
+                <li>OIL & GAS from Exploration to Distribution (Fundación YPF e Instituto Francés del Petróleo)</li>
+                <li>Implementación de Estándares Internacionales de Aseguramiento y Control de Calidad de la Industria Minera (Colegio de Geólogos de Córdoba)</li>
+                <li>IT Essentials: PC Hardware and Software (Academia Local Cisco de la UNC y Ministerio de Trabajo de la Nación)</li>
             </ul>
-        </div>
+        </section>
 
-        <div class="section">
-            <h2 class="section-title">Habilidades</h2>
+        <section class="habilidades">
+            <h2>Habilidades</h2>
             <ul>
-                <li>Lenguajes: Python, SQL</li>
+                <li>Lenguajes de Programación: Python, SQL</li>
                 <li>Data Viz: Power BI, Amazon Quicksight</li>
-                <li>Bases de Datos: SQLite</li>
-                <li>Análisis Sísmico: SeisImager (PlotRefa, Pickwin, WaveEq, Surface Wave Analysis Wizard)</li>
-                <li>SIG: ArcGIS Online, ArcGIS Pro, QGIS</li>
-                <li>Idiomas: Inglés (B1), Italiano (A2)</li>
+                <li>Motores de Base de Datos: SQLite</li>
+                <li>Software para Análisis de Datos Sísmicos: Seisimager (PlotRefa, Pickwin, WaveEq, Surface Wave Analysis Wizard)</li>
+                <li>Sistemas de Información Geográfica: ArcGIS Online, ArcGIS Pro, QGIS</li>
             </ul>
-        </div>
+        </section>
+
+        <section class="idiomas">
+            <h2>Idiomas</h2>
+            <ul>
+                <li>Inglés: B1</li>
+                <li>Italiano: A2</li>
+            </ul>
+        </section>
+
+        <section class="experiencia">
+            <h2>Experiencia Laboral</h2>
+            <ul>
+                <li><strong>Actualidad:</strong> Observatorio de Datos, Municipalidad de Córdoba. Analista de Datos y Consultor GIS.</li>
+                <li><strong>2022:</strong> Ingeniería Laboral y Ambiental ILA. Técnico de Campo, Muestreo Ambiental, Auditor Ambiental.</li>
+                <li><strong>2021:</strong> Pastorino Global Services. Técnico Electromecánico. Instalador de Sistemas de Telemedición de Combustible e Instalador de Sensores de Detección de Pérdidas en Estaciones de Combustible.</li>
+                <li><strong>2020:</strong> TECME. Técnico (Eventual Pandemia). Ensamblado, Calibración y Testeo de Equipos Neumáticos para Respiradores Artificiales. Carta de Recomendación.</li>
+                <li><strong>2019:</strong> Cintelink. Técnico. Producción, Testeo e Instalación de Equipos de Telemedición de Combustibles y Otros Derivados del Petróleo.</li>
+            </ul>
+        </section>
     </div>
 </body>
 </html>
